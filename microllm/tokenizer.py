@@ -130,7 +130,8 @@ class BPETokenizer:
         return data.decode("utf-8", errors="replace")
 
     def token_strings(self, ids: List[int]) -> List[str]:
-        return [self.vocab[i].decode("utf-8", errors="replace") for i in ids]
+        # токен может оказаться половиной русской буквы (2 байта): показываем такие байты как «\\xd0», а не «�»
+        return [self.vocab[i].decode("utf-8", errors="backslashreplace") for i in ids]
 
     def to_dict(self) -> dict:
         return {"kind": self.kind, "merges": [list(m) for m in self.merges]}

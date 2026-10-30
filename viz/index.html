@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Внимание трансформера в 3D</title>
+  <meta name="description" content="Как маленькая языковая модель «смотрит» на слова: слои — этажи, токены — огни, внимание — светящиеся нити." />
+  <style>
+    :root { --bg:#05070f; --card:rgba(10,16,40,.78); --line:#26325f; --text:#eaf1ff; --muted:#93a3cc; --accent:#6aa9ff; --warm:#ffb457; }
+    * { box-sizing: border-box; }
+    html, body { margin:0; height:100%; background:var(--bg); color:var(--text); font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; overflow:hidden; }
+    #view { position:fixed; inset:0; }
+    canvas { display:block; touch-action:none; cursor:grab; } canvas:active { cursor:grabbing; }
+    .panel { position:fixed; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:12px 14px; backdrop-filter:blur(8px); }
+    #top { top:12px; left:12px; right:12px; max-width:560px; }
+    h1 { margin:0 0 4px; font-size:18px; } p { margin:0; color:var(--muted); font-size:13px; }
+    select { width:100%; margin-top:10px; padding:8px 10px; border-radius:10px; border:1px solid var(--line); background:#0a1030; color:var(--text); font:inherit; }
+    #controls { left:12px; right:12px; bottom:12px; max-width:560px; display:grid; gap:8px; }
+    .row { display:flex; flex-wrap:wrap; gap:6px; align-items:center; } .row b { font-weight:500; color:var(--muted); font-size:12px; margin-right:4px; }
+    button { padding:6px 12px; border-radius:999px; border:1px solid var(--line); background:transparent; color:var(--text); font:inherit; font-size:13px; cursor:pointer; }
+    button.on { background:var(--accent); color:#06102a; border-color:var(--accent); }
+    #tip { position:fixed; pointer-events:none; padding:6px 10px; border-radius:8px; background:rgba(0,0,0,.82); border:1px solid var(--line); font-size:12px; display:none; max-width:260px; }
+    #legend { right:12px; top:12px; font-size:12px; color:var(--muted); display:none; }
+    @media (min-width: 900px) { #legend { display:block; } }
+    .bar { display:inline-block; width:90px; height:8px; border-radius:4px; vertical-align:middle; background:linear-gradient(90deg,#1b3a99,#6aa9ff,#ffb457); margin:0 6px; }
+  </style>
+</head>
+<body>
+<div id="view"></div>
+<div class="panel" id="top">
+  <h1>Внимание трансформера в 3D</h1>
+  <p>Этажи — слои модели, кубики — токены, нити — куда токен «смотрит». Крутите мышью или пальцем.</p>
+  <select id="sel" aria-label="Пример"></select>
+</div>
+<div class="panel" id="legend"><div>вес внимания</div><div>слабый<span class="bar"></span>сильный</div></div>
+<div class="panel" id="controls">
+  <div class="row"><b>Голова</b><span id="heads"></span></div>
+  <div class="row"><b>Слой</b><span id="layers"></span></div>
+  <p id="hint">Нажмите на токен: подсветятся нити, идущие от него на всех этажах.</p>
+</div>
+<div id="tip"></div>
+
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+} }
+</script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

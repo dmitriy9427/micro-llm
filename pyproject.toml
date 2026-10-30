@@ -1,0 +1,15 @@
+[project]
+name = "micro-llm"
+version = "0.1.0"
+description = "Маленькая GPT-подобная языковая модель с нуля: токенайзер, трансформер, обучение, генерация, карты внимания"
+requires-python = ">=3.9"
+dependencies = ["torch>=2.2", "numpy"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools]
+packages = ["microllm"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

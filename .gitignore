@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+# данные и результаты обучения — воспроизводятся скриптами
+data/corpus.txt
+out/
+out-*/
+*.pt
+.DS_Store

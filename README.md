@@ -40,3 +40,15 @@ python3 -m venv .venv
 2. ⬜ **Шаг 2 — Rust:** быстрый токенайзер BPE (обучение сейчас на чистом Python — это узкое место), сборка в WebAssembly.
 3. 🟨 **Шаг 3 — браузер и 3D:** ✅ [3D-визуализация внимания](viz/) на готовых JSON (Three.js) — готова; ⬜ запуск самой модели в браузере через WebGPU/ONNX.
 4. ⬜ **Шаг 4 — взрослый уровень:** дообучение (LoRA) под задачу, оценка качества (evals), вклад в open-source.
+
+## Токенайзер на Rust и WebAssembly
+
+В `rust/bpe` тот же BPE, переписанный на Rust: обучение на корпусе в 1,4 МБ занимает ~1,5 с вместо ~37 с в Python,
+а слияния совпадают байт в байт (`scripts/check_rust_parity.py`). Тот же код собран в WebAssembly и работает в браузере:
+`viz/tokenizer.html` обучает токенайзер на вашем тексте и красит токены.
+
+```bash
+cargo test --release --manifest-path rust/bpe/Cargo.toml
+cargo build --release --target wasm32-unknown-unknown --manifest-path rust/bpe/Cargo.toml
+wasm-bindgen rust/bpe/target/wasm32-unknown-unknown/release/microllm_bpe.wasm --target web --out-dir viz/wasm --no-typescript
+```

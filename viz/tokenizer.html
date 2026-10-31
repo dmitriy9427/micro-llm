@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BPE-токенайзер на Rust в браузере</title>
+  <meta name="description" content="Токенайзер обучается прямо в браузере: Rust, скомпилированный в WebAssembly." />
+  <style>
+    :root { --bg:#05070f; --card:#0b1230; --line:#26325f; --text:#eaf1ff; --muted:#93a3cc; --accent:#6aa9ff; --warm:#ffb457; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { max-width:900px; margin:0 auto; padding:20px 16px 60px; }
+    h1 { font-size:22px; margin:0 0 4px; } p { color:var(--muted); margin:0 0 14px; }
+    textarea { width:100%; min-height:150px; padding:12px; border-radius:12px; border:1px solid var(--line); background:var(--card); color:var(--text); font:14px/1.5 ui-monospace,Menlo,monospace; resize:vertical; }
+    .row { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin:12px 0; }
+    label { color:var(--muted); font-size:13px; } input[type=number] { width:90px; padding:6px 8px; border-radius:8px; border:1px solid var(--line); background:var(--card); color:var(--text); font:inherit; }
+    button { padding:8px 16px; border-radius:999px; border:1px solid var(--accent); background:var(--accent); color:#06102a; font:inherit; font-weight:600; cursor:pointer; }
+    button:disabled { opacity:.5; cursor:wait; }
+    .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin:14px 0; }
+    .stat { border:1px solid var(--line); border-radius:12px; padding:10px 12px; background:var(--card); }
+    .stat b { display:block; font-size:20px; color:var(--warm); } .stat span { font-size:12px; color:var(--muted); }
+    #out { padding:12px; border:1px solid var(--line); border-radius:12px; background:var(--card); line-height:2.1; word-break:break-all; }
+    .tok { display:inline-block; padding:0 3px; margin:1px; border-radius:5px; white-space:pre; font:13px ui-monospace,Menlo,monospace; color:#06102a; }
+    #err { color:#ff8b8b; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>BPE-токенайзер на Rust — прямо в браузере</h1>
+  <p>Обучение и кодирование написаны на Rust и скомпилированы в WebAssembly. Вставьте любой текст, нажмите «Обучить» — и увидите, как он режется на токены.</p>
+  <textarea id="text" spellcheck="false">Привет! Меня зовут Дмитрий, я фронтенд-разработчик. Я делаю проекты на React и Astro, а теперь учусь делать языковые модели. Проект про модель, модель про проекты: проектирование, проектировщик, проектный.
+Hello, I build web projects with React, Astro and three.js. Projects, projecting, projector.</textarea>
+  <div class="row">
+    <label>Размер словаря <input id="vocab" type="number" value="400" min="257" max="4000" /></label>
+    <button id="go" disabled>Обучить</button>
+    <span id="err"></span>
+  </div>
+  <div class="stats">
+    <div class="stat"><b id="s-time">—</b><span>время обучения</span></div>
+    <div class="stat"><b id="s-vocab">—</b><span>размер словаря</span></div>
+    <div class="stat"><b id="s-bytes">—</b><span>байт в тексте</span></div>
+    <div class="stat"><b id="s-toks">—</b><span>токенов</span></div>
+    <div class="stat"><b id="s-ratio">—</b><span>байт на токен</span></div>
+  </div>
+  <div id="out"></div>
+</main>
+<script type="module">
+  import init, { Tokenizer } from "./wasm/microllm_bpe.js";
+  const $ = (id) => document.getElementById(id);
+  await init();
+  $("go").disabled = false;
+
+  const palette = ["#9ec5ff", "#ffd08a", "#a8f0c6", "#f6a8d4", "#c9b8ff", "#fff1a0"];
+  const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+
+  function run() {
+    $("err").textContent = "";
+    try {
+      const text = $("text").value;
+      const vocab = Number($("vocab").value);
+      const t0 = performance.now();
+      const tok = Tokenizer.train(text, vocab);
+      const ms = performance.now() - t0;
+      const ids = tok.encode(text);
+      const bytes = new TextEncoder().encode(text).length;
+      $("s-time").textContent = ms.toFixed(1) + " мс";
+      $("s-vocab").textContent = tok.vocab_size;
+      $("s-bytes").textContent = bytes;
+      $("s-toks").textContent = ids.length;
+      $("s-ratio").textContent = (bytes / ids.length).toFixed(2);
+      // по одному токену декодируем: токен может быть половиной русской буквы, тогда покажем как есть
+      $("out").innerHTML = Array.from(ids, (id, i) => {
+        const s = tok.decode(new Uint32Array([id])).replace(/�/g, "·").replace(/\n/g, "↵\n");
+        return `<span class="tok" style="background:${palette[i % palette.length]}" title="токен ${id}">${esc(s)}</span>`;
+      }).join("");
+      if (tok.decode(ids) !== text) $("err").textContent = "ошибка: декодирование не совпало с исходным текстом";
+      tok.free();
+    } catch (e) { $("err").textContent = String(e); }
+  }
+  $("go").onclick = run;
+  run();
+</script>
+</body>
+</html>

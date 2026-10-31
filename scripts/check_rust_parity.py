@@ -8,7 +8,9 @@ import subprocess
 import sys
 import tempfile
 import time
+from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from microllm.tokenizer import BPETokenizer
 
 corpus, vocab = sys.argv[1], int(sys.argv[2])

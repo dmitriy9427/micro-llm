@@ -41,6 +41,8 @@ python3 -m venv .venv
 3. 🟨 **Шаг 3 — браузер и 3D:** ✅ [3D-визуализация внимания](viz/) на готовых JSON (Three.js) — готова; ⬜ запуск самой модели в браузере через WebGPU/ONNX.
 4. 🟨 **Шаг 4 — взрослый уровень:** ✅ дообучение (LoRA) и оценка против RAG ([глава 11](docs/TUTORIAL.md)); ⬜ строгие evals, вклад в open-source.
 
+**Новичку в Python/Rust:** [Python и PyTorch для JS-разработчика](docs/PYTHON_FOR_JS.md) · [Rust и WebAssembly для JS-разработчика](docs/RUST_FOR_JS.md).
+
 ## Токенайзер на Rust и WebAssembly
 
 В `rust/bpe` тот же BPE, переписанный на Rust: обучение на корпусе в 1,4 МБ занимает ~1,5–3 с вместо ~40 с в Python (в 14–24 раза быстрее),

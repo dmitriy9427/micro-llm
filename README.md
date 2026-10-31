@@ -45,7 +45,7 @@ python3 -m venv .venv
 
 В `rust/bpe` тот же BPE, переписанный на Rust: обучение на корпусе в 1,4 МБ занимает ~1,5–3 с вместо ~40 с в Python (в 14–24 раза быстрее),
 а слияния совпадают байт в байт (`scripts/check_rust_parity.py`). Тот же код собран в WebAssembly и работает в браузере:
-`viz/tokenizer.html` обучает токенайзер на вашем тексте и красит токены.
+`viz/tokenizer.html` обучает токенайзер на вашем тексте и красит токены. Не знаете Rust? Начните с [введения для JS-разработчика](docs/RUST_FOR_JS.md).
 
 ```bash
 cargo test --release --manifest-path rust/bpe/Cargo.toml

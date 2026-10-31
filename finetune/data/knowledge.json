@@ -1,0 +1,482 @@
+[
+ {
+  "id": "ru:profile:profile",
+  "lang": "ru",
+  "kind": "profile",
+  "title": "Профиль",
+  "text": "Дмитрий Рябов — Frontend-разработчик. Россия · удалённо · МСК. Делаю быстрые и живые интерфейсы: от вёрстки сайтов до WebGL-анимаций и панелей управления на React. Frontend-разработчик. Делаю сайты и спецпроекты: от адаптивной вёрстки и UI-китов до анимаций на GSAP и сцен на Three.js. Люблю, когда интерфейс не только красивый, но и надёжный: доступность, производительность, тесты и документация — часть работы, а не «если останется время». Открыт к проектам.",
+  "url": ""
+ },
+ {
+  "id": "ru:stats:stats",
+  "lang": "ru",
+  "kind": "stats",
+  "title": "Цифры",
+  "text": "2+ года в коммерческой разработке; 25+ проектов в коммерческой разработке; 1500+ коммитов за последний год.",
+  "url": ""
+ },
+ {
+  "id": "ru:contacts:contacts",
+  "lang": "ru",
+  "kind": "contacts",
+  "title": "Контакты",
+  "text": "Email: dimich.94@yandex.ru. Telegram: https://t.me/ryabov_29. GitHub: https://github.com/dmitriy9427. PDF: /cv.pdf",
+  "url": ""
+ },
+ {
+  "id": "ru:experience:paraweb",
+  "lang": "ru",
+  "kind": "experience",
+  "title": "Опыт работы: Paraweb",
+  "text": "Опыт работы: Paraweb, 2024 — сейчас, Frontend-разработчик. • Вёрстка и фронтенд коммерческих сайтов: от макета до продакшна. • UI-киты и библиотеки компонентов на Astro + React + Storybook, документация и тесты. • Анимации и WebGL: шейдеры, 3D-слайдеры, эффекты на скролле. • Интерфейсы на React: личные кабинеты, формы и фильтры.",
+  "url": ""
+ },
+ {
+  "id": "ru:skills:markup",
+  "lang": "ru",
+  "kind": "skills",
+  "title": "Навыки: Вёрстка",
+  "text": "Навыки — Вёрстка: HTML5, SCSS / Sass, БЭМ, Адаптив, Доступность (a11y), Pug, Tailwind.",
+  "url": ""
+ },
+ {
+  "id": "ru:skills:javascript",
+  "lang": "ru",
+  "kind": "skills",
+  "title": "Навыки: JavaScript",
+  "text": "Навыки — JavaScript: JavaScript (ES2023), TypeScript, DOM API, Web Components, htmx, Telegram Mini Apps, WebSocket, Авторизация: JWT, OAuth 2.0 + PKCE, WebAuthn.",
+  "url": ""
+ },
+ {
+  "id": "ru:skills:frameworks",
+  "lang": "ru",
+  "kind": "skills",
+  "title": "Навыки: Фреймворки",
+  "text": "Навыки — Фреймворки: React, React Native, Expo, Next.js (App Router), Vue 3, Nuxt, Pinia, Astro, React Router, TanStack Router / Table / Virtual, Redux Toolkit, RTK Query, Feature-Sliced Design, Zustand, TanStack Query, React Hook Form, shadcn/ui.",
+  "url": ""
+ },
+ {
+  "id": "ru:skills:motion-graphics",
+  "lang": "ru",
+  "kind": "skills",
+  "title": "Навыки: Анимации и графика",
+  "text": "Навыки — Анимации и графика: GSAP + ScrollTrigger, SplitText, Flip, Draggable, Three.js, React Three Fiber, GLSL-шейдеры, Web Audio API, Lenis, Swiper, Canvas, MapLibre GL.",
+  "url": ""
+ },
+ {
+  "id": "ru:skills:tooling-quality",
+  "lang": "ru",
+  "kind": "skills",
+  "title": "Навыки: Сборка и качество",
+  "text": "Навыки — Сборка и качество: Vite, Webpack, Gulp, Vitest, Jest, Playwright, Storybook, ESLint / Stylelint, Git.",
+  "url": ""
+ },
+ {
+  "id": "ru:skills:ai",
+  "lang": "ru",
+  "kind": "skills",
+  "title": "Навыки: AI",
+  "text": "Навыки — AI: Интерфейсы AI-ассистентов, Чаты со стримингом ответов, RAG, AI-инструменты в разработке.",
+  "url": ""
+ },
+ {
+  "id": "ru:project:miet-university-website",
+  "lang": "ru",
+  "kind": "project",
+  "title": "Проект: Сайт МИЭТ",
+  "text": "Проект: Сайт МИЭТ (2025). Разделы и блоки сайта, таблицы, баннеры, адаптив. Стек: Pug, SCSS, JavaScript, GSAP. Сайт: https://miet.ru.",
+  "url": "https://miet.ru"
+ },
+ {
+  "id": "ru:project:buryat-state-agricultural-academy-website",
+  "lang": "ru",
+  "kind": "project",
+  "title": "Проект: Сайт Бурятской ГСХА",
+  "text": "Проект: Сайт Бурятской ГСХА (2025). Поиск по сайту, баннеры, статьи, уведомление о cookies. Стек: Pug, SCSS, JavaScript, GSAP. Сайт: https://bgsha.ru.",
+  "url": "https://bgsha.ru"
+ },
+ {
+  "id": "ru:project:volgograd-medical-university-youth-portal",
+  "lang": "ru",
+  "kind": "project",
+  "title": "Проект: Молодёжный портал ВолгГМУ",
+  "text": "Проект: Молодёжный портал ВолгГМУ (2026). «Искусство быть врачом»: плавные переходы между страницами, видео-слайдеры, календарь событий, формы. Стек: Pug, SCSS, JavaScript, GSAP, Barba.js, Lenis. Сайт: https://medmol.volgmed.ru.",
+  "url": "https://medmol.volgmed.ru"
+ },
+ {
+  "id": "ru:pet:micro-llm",
+  "lang": "ru",
+  "kind": "pet",
+  "title": "Пет-проект (личный): micro-llm",
+  "text": "Пет-проект (личный): micro-llm — Языковая модель GPT с нуля на PyTorch. Токенайзер BPE (байтовый, как в GPT-2) и трансформер написаны вручную: внимание, маска, остаточные связи, инициализация. Цикл обучения с AdamW, прогревом и косинусным расписанием, проверочная выборка, генерация с temperature, top-k и top-p. Выгрузка карт внимания в JSON для 3D-визуализации. 845 тысяч параметров учатся за 105 секунд на Apple M4 Pro; символьный токенайзер и BPE сравниваются в «битах на байт». 20 тестов, подробный учебник с упражнениями на русском. Дальше: токенайзер на Rust/WASM и запуск модели в браузере. Стек: Python, PyTorch, Transformers, BPE, pytest. Репозиторий: https://github.com/dmitriy9427/micro-llm.",
+  "url": "https://github.com/dmitriy9427/micro-llm"
+ },
+ {
+  "id": "ru:pet:potok",
+  "lang": "ru",
+  "kind": "pet",
+  "title": "Пет-проект (личный): Поток",
+  "text": "Пет-проект (личный): Поток — AI-чат со стримингом. Ответ приходит потоком по SSE: свой парсер выдерживает разрыв события в любом месте, даже посреди символа. Markdown дорисовывается по ходу, незакрытый блок кода остаётся кодом, HTML из ответа не выполняется. Остановка по кнопке и Esc с сохранением уже полученного текста, повтор после обрыва, вызовы инструментов с карточками, калькулятор без eval. Токены применяются пачкой раз в кадр, автопрокрутка не мешает читать, скринридер слышит начало и конец ответа, а не каждый токен. Сервер модели работает в браузере. 100 тестов, включая axe. Стек: React, TypeScript, SSE, zustand, Accessibility (WAI-ARIA). Демо: https://dmitriy9427.github.io/potok/. Репозиторий: https://github.com/dmitriy9427/potok.",
+  "url": "https://dmitriy9427.github.io/potok/"
+ },
+ {
+  "id": "ru:pet:lepestok",
+  "lang": "ru",
+  "kind": "pet",
+  "title": "Пет-проект (личный): Лепесток",
+  "text": "Пет-проект (личный): Лепесток — Цветочный магазин. Первый экран — видео сквозь буквы, раскрывается прокруткой. Прелоадер и шейдерные переходы между страницами «распускающийся цветок». Конструктор букета с ценой и бюджетом, каталог с фильтрами в адресе и Flip, 3D-галерея, подписка, оформление заказа. Тёмная тема, плавающие цветы на canvas, 220+ тестов. Стек: React, TypeScript, GSAP, WebGL, Vitest. Демо: https://dmitriy9427.github.io/lepestok/. Репозиторий: https://github.com/dmitriy9427/lepestok.",
+  "url": "https://dmitriy9427.github.io/lepestok/"
+ },
+ {
+  "id": "ru:pet:tropa",
+  "lang": "ru",
+  "kind": "pet",
+  "title": "Пет-проект (личный): Тропа",
+  "text": "Пет-проект (личный): Тропа — Планировщик путешествий. Места по дням: перетаскивание мышью, пальцем и с клавиатуры, карта маршрута на MapLibre — камера перелетает к выбранному дню, линия прорисовывается. Подборка популярных мест из Wikidata с фото, прогноз погоды, ссылка «поделиться» без сервера, экспорт в календарь. Статический экспорт Next.js, тесты на логику. Стек: Next.js, TypeScript, Zustand, TanStack Query, MapLibre. Демо: https://dmitriy9427.github.io/tropa/. Репозиторий: https://github.com/dmitriy9427/tropa.",
+  "url": "https://dmitriy9427.github.io/tropa/"
+ },
+ {
+  "id": "ru:pet:resonance",
+  "lang": "ru",
+  "kind": "pet",
+  "title": "Пет-проект (личный): Резонанс",
+  "text": "Пет-проект (личный): Резонанс — Музыкальный визуализатор. Три 3D-сцены на шейдерах слушают музыку: сфера на шуме, галактика из 60 000 частиц, синтвейв-ландшафт из истории спектра. Анализ звука — полосы частот и детектор долей, демо-трек синтезируется в браузере на Web Audio, свой файл или микрофон. 60 fps, обучающая документация. Стек: React Three Fiber, TypeScript, GLSL, Web Audio, Vitest. Демо: https://dmitriy9427.github.io/resonance/. Репозиторий: https://github.com/dmitriy9427/resonance.",
+  "url": "https://dmitriy9427.github.io/resonance/"
+ },
+ {
+  "id": "ru:pet:3d-constructor",
+  "lang": "ru",
+  "kind": "pet",
+  "title": "Пет-проект (личный): 3D-конструктор",
+  "text": "Пет-проект (личный): 3D-конструктор — Конструктор WebGL-анимаций с экспортом кода. 40 эффектов настраиваются ползунками, готовый код забирается как JS-модуль, React-компонент или веб-компонент — тот же рантайм, что рисует превью, около 8 КБ в gzip. Фоны на GLSL (море со сменой суток и штормом, облака на шуме Перлина — Ворли, космос, огонь, жидкий металл), симуляции жидкости на GPU, переходы, прожигающие настоящую HTML-секцию, курсоры, жидкая кнопка, прелоадер, 3D на three.js. Свой шейдер прямо в редакторе, траектории, адаптивное качество. Главная — скролл-сцена на GSAP из этих же эффектов. 131 тест, учебник из 17 глав. Стек: WebGL2 / GLSL, Three.js, GSAP, React, TypeScript. Демо: https://dmitriy9427.github.io/konstruktor-3d/. Репозиторий: https://github.com/dmitriy9427/konstruktor-3d.",
+  "url": "https://dmitriy9427.github.io/konstruktor-3d/"
+ },
+ {
+  "id": "ru:pet:letuchka",
+  "lang": "ru",
+  "kind": "pet",
+  "title": "Пет-проект (личный): Летучка",
+  "text": "Пет-проект (личный): Летучка — Онлайн-ретро для команды. Комната по ссылке без регистрации: карточки, голосование, таймер, курсоры коллег и реакции в реальном времени. Три этапа: пишем вслепую, голосуем, обсуждаем. Бэкенд — Supabase: анонимный вход, Postgres, права на уровне строк (RLS), realtime; демо-режим между вкладками без сервера. Стек: Nuxt, Vue 3, Pinia, Supabase, TypeScript. Демо: https://dmitriy9427.github.io/letuchka/. Репозиторий: https://github.com/dmitriy9427/letuchka.",
+  "url": "https://dmitriy9427.github.io/letuchka/"
+ },
+ {
+  "id": "ru:pet:myata",
+  "lang": "ru",
+  "kind": "pet",
+  "title": "Пет-проект (личный): Мята",
+  "text": "Пет-проект (личный): Мята — Telegram Mini App для записи в студию. Запись к мастеру прямо в Telegram: услуга, мастер, свободное время, подтверждение. Цвета темы пользователя, родные кнопки Telegram (MainButton, BackButton), вибрация, записи в CloudStorage — видны на всех устройствах. Расписание с учётом длительности услуги и режимом «любой мастер», демо-режим вне Telegram. Стек: React, TypeScript, Telegram Mini Apps, Zustand, Vite. Демо: https://dmitriy9427.github.io/myata/. Репозиторий: https://github.com/dmitriy9427/myata.",
+  "url": "https://dmitriy9427.github.io/myata/"
+ },
+ {
+  "id": "ru:pet:ritm",
+  "lang": "ru",
+  "kind": "pet",
+  "title": "Пет-проект (личный): Ритм",
+  "text": "Пет-проект (личный): Ритм — Мобильное приложение: трекер привычек. Приложение на React Native и Expo: один код для iOS, Android и браузера. Привычки по дням недели, счётчики, серии, статистика с «тепловой картой». Отметка свайпом — жест и анимация в UI-потоке (Gesture Handler, Reanimated), кольцо прогресса на SVG. Данные на устройстве с версией и миграцией, локальные напоминания, вибрация, тёмная тема, доступность. Стек: React Native, Expo, TypeScript, Reanimated, Zustand. Демо: https://dmitriy9427.github.io/ritm/. Репозиторий: https://github.com/dmitriy9427/ritm.",
+  "url": "https://dmitriy9427.github.io/ritm/"
+ },
+ {
+  "id": "ru:pet:propusk",
+  "lang": "ru",
+  "kind": "pet",
+  "title": "Пет-проект (личный): Пропуск",
+  "text": "Пет-проект (личный): Пропуск — Авторизация, сделанная как в продукте. Access-токен (JWT) в памяти и refresh-токен в HttpOnly-cookie с ротацией и обнаружением кражи; пароли на PBKDF2 с защитой от перебора и одинаковыми ошибками. Двухфакторная защита (TOTP, коды восстановления), ключи доступа (WebAuthn), вход через провайдера по OAuth 2.0 + PKCE + OpenID Connect, ссылки из писем, устройства, режим судо, роли. Клиент обновляет токен один раз на все запросы и вкладки (Web Locks), выходит во всех вкладках (BroadcastChannel). Сервер на Hono работает и на Node, и в браузере. 62 теста, включая passkeys в Playwright. Стек: React, TypeScript, OAuth 2.0 / OIDC, WebAuthn, Hono. Демо: https://dmitriy9427.github.io/propusk/. Репозиторий: https://github.com/dmitriy9427/propusk.",
+  "url": "https://dmitriy9427.github.io/propusk/"
+ },
+ {
+  "id": "ru:pet:saldo",
+  "lang": "ru",
+  "kind": "pet",
+  "title": "Пет-проект (личный): Сальдо",
+  "text": "Пет-проект (личный): Сальдо — Учёт личных финансов на Redux Toolkit и FSD. RTK Query: один createApi, эндпоинты в сущностях, теги — после любой операции сами обновляются список, остатки, графики и бюджеты; оптимистичная правка с откатом. Удаление с отменой на listener middleware, мастер импорта CSV на createSlice и createSelector (кодировка, колонки и категории угадываются, дубликаты пропускаются). Архитектура Feature-Sliced Design с проверкой Steiger. Формы на react-hook-form + zod, деньги в копейках, графики Recharts. 75 тестов: Vitest с MSW и Playwright. Стек: React, TypeScript, Redux Toolkit, RTK Query, Feature-Sliced Design. Демо: https://dmitriy9427.github.io/saldo/. Репозиторий: https://github.com/dmitriy9427/saldo.",
+  "url": "https://dmitriy9427.github.io/saldo/"
+ },
+ {
+  "id": "ru:pet:prilavok",
+  "lang": "ru",
+  "kind": "pet",
+  "title": "Пет-проект (личный): Прилавок",
+  "text": "Пет-проект (личный): Прилавок — Админка интернет-магазина с реальным временем. Свой WebSocket-клиент без библиотек: переподключение с нарастающей паузой и jitter, heartbeat, каналы, запросы с подтверждением, очередь и докачка пропущенных событий по номеру и эпохе сервера. События попадают в кэш TanStack Query, версии записей защищают от гонок. Серверная таблица с состоянием в адресе, 10 000 строк с виртуализацией, оптимистичные обновления, роли. Сервер работает в браузере через MSW и на Node. 138 тестов. Стек: React, TypeScript, WebSocket, TanStack Router / Query / Table, shadcn/ui. Демо: https://dmitriy9427.github.io/prilavok/. Репозиторий: https://github.com/dmitriy9427/prilavok.",
+  "url": "https://dmitriy9427.github.io/prilavok/"
+ },
+ {
+  "id": "ru:pet:opora",
+  "lang": "ru",
+  "kind": "pet",
+  "title": "Пет-проект (личный): Опора",
+  "text": "Пет-проект (личный): Опора — Библиотека React-компонентов. 16 доступных компонентов, написанных без Radix и других готовых основ: диалог с ловушкой фокуса и inert, меню и вкладки с навигацией стрелками, селект на aria-activedescendant, тосты с живыми областями, своё позиционирование с flip и shift. Стили в каскадных слоях и на токенах — переопределяются без !important. Пакет: ESM, типы, карта exports, проверки publint и attw, установка упакованного архива с серверным рендерингом. 133 теста с axe, Storybook. Стек: React, TypeScript, Accessibility (WAI-ARIA), Storybook, Vitest. Демо: https://dmitriy9427.github.io/opora/. Репозиторий: https://github.com/dmitriy9427/opora.",
+  "url": "https://dmitriy9427.github.io/opora/"
+ },
+ {
+  "id": "ru:pet:sosny-residence",
+  "lang": "ru",
+  "kind": "pet",
+  "title": "Пет-проект (личный): Квартал «Сосны»",
+  "text": "Пет-проект (личный): Квартал «Сосны» — Сайт жилого комплекса. 3D-квартал на three.js: при наведении на башню — свободные квартиры. Каталог из 270 квартир: фильтры, шахматка, состояние в адресе. Статические страницы квартир с SVG-планировками, избранное, ипотечный калькулятор. Стек: Astro, TypeScript, Three.js, GSAP, SCSS. Демо: https://dmitriy9427.github.io/zhk-sosny/. Репозиторий: https://github.com/dmitriy9427/zhk-sosny.",
+  "url": "https://dmitriy9427.github.io/zhk-sosny/"
+ },
+ {
+  "id": "ru:pet:orbita",
+  "lang": "ru",
+  "kind": "pet",
+  "title": "Пет-проект (личный): ОРБИТА",
+  "text": "Пет-проект (личный): ОРБИТА — Сайт космического агентства. 3D-ракета летит по своей траектории, пока листаешь страницу, а по кнопке «Пуск» проходит её обратно и садится на стартовую площадку. Все 16 плагинов GSAP, шесть слайдеров без библиотек, шейдерные переходы, симуляция воды на GPU, бесконечная галерея. Три страницы, 120 fps, 218 тестов. Стек: GSAP, Three.js, GLSL, Vite, Vitest. Демо: https://dmitriy9427.github.io/space-agency/. Репозиторий: https://github.com/dmitriy9427/space-agency.",
+  "url": "https://dmitriy9427.github.io/space-agency/"
+ },
+ {
+  "id": "ru:pet:frontend-kit",
+  "lang": "ru",
+  "kind": "pet",
+  "title": "Пет-проект (личный): frontend-kit",
+  "text": "Пет-проект (личный): frontend-kit — Шаблон для старта проектов. 36 модулей, формы со схемами в стиле zod и масками, Swiper, 3D-слайдер, i18n, dev-панель, 4 стартера: vanilla, React, React + TS, Astro. На нём собран этот сайт. Стек: TypeScript, Astro, React, SCSS, GSAP. Демо: https://dmitriy9427.github.io/frontend-kit/. Репозиторий: https://github.com/dmitriy9427/frontend-kit.",
+  "url": "https://dmitriy9427.github.io/frontend-kit/"
+ },
+ {
+  "id": "ru:site3d:site3d",
+  "lang": "ru",
+  "kind": "site3d",
+  "title": "3D-версия резюме",
+  "text": "3D-версия резюме — интерактивная прогулка по ночному городу: комната на высоком этаже, спуск на улицу, вывески с проектами и опытом, выход к морю. Сделана на Astro, React Three Fiber, three.js и Blender. Адрес: https://dmitriy9427.github.io/3d-resume/",
+  "url": "https://dmitriy9427.github.io/3d-resume/"
+ },
+ {
+  "id": "en:profile:profile",
+  "lang": "en",
+  "kind": "profile",
+  "title": "Profile",
+  "text": "Dmitry Ryabov — Frontend Developer. Russia · remote · Moscow time. I build fast, living interfaces: from website markup to WebGL animations and React dashboards. Frontend developer. I build websites and special projects: from responsive markup and UI kits to GSAP animations and Three.js scenes. I like interfaces that are not only beautiful but reliable: accessibility, performance, tests and documentation are part of the job, not “if there is time left”. Open to projects.",
+  "url": ""
+ },
+ {
+  "id": "en:stats:stats",
+  "lang": "en",
+  "kind": "stats",
+  "title": "Numbers",
+  "text": "2+ years in commercial development; 25+ commercial projects; 1500+ commits over the last year.",
+  "url": ""
+ },
+ {
+  "id": "en:contacts:contacts",
+  "lang": "en",
+  "kind": "contacts",
+  "title": "Contacts",
+  "text": "Email: dimich.94@yandex.ru. Telegram: https://t.me/ryabov_29. GitHub: https://github.com/dmitriy9427. PDF: /cv.pdf",
+  "url": ""
+ },
+ {
+  "id": "en:experience:paraweb",
+  "lang": "en",
+  "kind": "experience",
+  "title": "Work experience: Paraweb",
+  "text": "Work experience: Paraweb, 2024 — present, Frontend Developer. • Markup and frontend for commercial websites: from design to production. • UI kits and component libraries with Astro + React + Storybook, docs and tests. • Animations and WebGL: shaders, 3D sliders, scroll effects. • React interfaces: user dashboards, forms and filters.",
+  "url": ""
+ },
+ {
+  "id": "en:skills:markup",
+  "lang": "en",
+  "kind": "skills",
+  "title": "Skills: Markup",
+  "text": "Skills — Markup: HTML5, SCSS / Sass, БЭМ, Адаптив, Доступность (a11y), Pug, Tailwind.",
+  "url": ""
+ },
+ {
+  "id": "en:skills:javascript",
+  "lang": "en",
+  "kind": "skills",
+  "title": "Skills: JavaScript",
+  "text": "Skills — JavaScript: JavaScript (ES2023), TypeScript, DOM API, Web Components, htmx, Telegram Mini Apps, WebSocket, Авторизация: JWT, OAuth 2.0 + PKCE, WebAuthn.",
+  "url": ""
+ },
+ {
+  "id": "en:skills:frameworks",
+  "lang": "en",
+  "kind": "skills",
+  "title": "Skills: Frameworks",
+  "text": "Skills — Frameworks: React, React Native, Expo, Next.js (App Router), Vue 3, Nuxt, Pinia, Astro, React Router, TanStack Router / Table / Virtual, Redux Toolkit, RTK Query, Feature-Sliced Design, Zustand, TanStack Query, React Hook Form, shadcn/ui.",
+  "url": ""
+ },
+ {
+  "id": "en:skills:motion-graphics",
+  "lang": "en",
+  "kind": "skills",
+  "title": "Skills: Motion & graphics",
+  "text": "Skills — Motion & graphics: GSAP + ScrollTrigger, SplitText, Flip, Draggable, Three.js, React Three Fiber, GLSL-шейдеры, Web Audio API, Lenis, Swiper, Canvas, MapLibre GL.",
+  "url": ""
+ },
+ {
+  "id": "en:skills:tooling-quality",
+  "lang": "en",
+  "kind": "skills",
+  "title": "Skills: Tooling & quality",
+  "text": "Skills — Tooling & quality: Vite, Webpack, Gulp, Vitest, Jest, Playwright, Storybook, ESLint / Stylelint, Git.",
+  "url": ""
+ },
+ {
+  "id": "en:skills:ai",
+  "lang": "en",
+  "kind": "skills",
+  "title": "Skills: AI",
+  "text": "Skills — AI: Интерфейсы AI-ассистентов, Чаты со стримингом ответов, RAG, AI-инструменты в разработке.",
+  "url": ""
+ },
+ {
+  "id": "en:project:miet-university-website",
+  "lang": "en",
+  "kind": "project",
+  "title": "Project: MIET university website",
+  "text": "Project: MIET university website (2025). Site sections and blocks, tables, banners, responsive layout. Stack: Pug, SCSS, JavaScript, GSAP. Website: https://miet.ru.",
+  "url": "https://miet.ru"
+ },
+ {
+  "id": "en:project:buryat-state-agricultural-academy-website",
+  "lang": "en",
+  "kind": "project",
+  "title": "Project: Buryat State Agricultural Academy website",
+  "text": "Project: Buryat State Agricultural Academy website (2025). Site search, banners, articles, cookie notice. Stack: Pug, SCSS, JavaScript, GSAP. Website: https://bgsha.ru.",
+  "url": "https://bgsha.ru"
+ },
+ {
+  "id": "en:project:volgograd-medical-university-youth-portal",
+  "lang": "en",
+  "kind": "project",
+  "title": "Project: Volgograd Medical University youth portal",
+  "text": "Project: Volgograd Medical University youth portal (2026). “The art of being a doctor”: smooth page transitions, video sliders, an events calendar, forms. Stack: Pug, SCSS, JavaScript, GSAP, Barba.js, Lenis. Website: https://medmol.volgmed.ru.",
+  "url": "https://medmol.volgmed.ru"
+ },
+ {
+  "id": "en:pet:micro-llm",
+  "lang": "en",
+  "kind": "pet",
+  "title": "Side project (personal): micro-llm",
+  "text": "Side project (personal): micro-llm — A GPT language model from scratch in PyTorch. A byte-level BPE tokenizer (as in GPT-2) and a transformer written by hand: attention, causal mask, residual connections, initialization. A training loop with AdamW, warmup and cosine schedule, a validation split, sampling with temperature, top-k and top-p. Attention maps exported to JSON for 3D visualization. 845k parameters train in 105 seconds on an Apple M4 Pro; the character tokenizer and BPE are compared in bits per byte. 20 tests and a detailed step-by-step tutorial with exercises (in Russian). Next: a Rust/WASM tokenizer and running the model in the browser. Stack: Python, PyTorch, Transformers, BPE, pytest. Repository: https://github.com/dmitriy9427/micro-llm.",
+  "url": "https://github.com/dmitriy9427/micro-llm"
+ },
+ {
+  "id": "en:pet:potok",
+  "lang": "en",
+  "kind": "pet",
+  "title": "Side project (personal): Potok",
+  "text": "Side project (personal): Potok — Streaming AI chat. The answer streams over SSE: a hand-written parser survives an event being cut anywhere, even mid-character. Markdown renders as it arrives, an unclosed code block stays code, HTML in the answer never runs. Stop by button or Esc keeping the text received so far, retry after a dropped connection, tool calls with cards, a calculator without eval. Tokens are applied in one batch per frame, auto-scroll never fights the reader, and a screen reader hears the start and end of an answer, not every token. The model server runs in the browser. 100 tests, including axe. Stack: React, TypeScript, SSE, zustand, Accessibility (WAI-ARIA). Demo: https://dmitriy9427.github.io/potok/. Repository: https://github.com/dmitriy9427/potok.",
+  "url": "https://dmitriy9427.github.io/potok/"
+ },
+ {
+  "id": "en:pet:lepestok",
+  "lang": "en",
+  "kind": "pet",
+  "title": "Side project (personal): Lepestok",
+  "text": "Side project (personal): Lepestok — Flower shop. Video-through-letters hero revealed on scroll. A preloader and a “blooming flower” shader transition between pages. Bouquet builder with live price and budget, a catalog with URL filters and Flip, a 3D gallery, subscription, checkout. Dark theme, floating canvas flowers, 220+ tests. Stack: React, TypeScript, GSAP, WebGL, Vitest. Demo: https://dmitriy9427.github.io/lepestok/. Repository: https://github.com/dmitriy9427/lepestok.",
+  "url": "https://dmitriy9427.github.io/lepestok/"
+ },
+ {
+  "id": "en:pet:tropa",
+  "lang": "en",
+  "kind": "pet",
+  "title": "Side project (personal): Tropa",
+  "text": "Side project (personal): Tropa — Trip planner. Places by day: drag and drop with mouse, touch and keyboard, a MapLibre route map — the camera flies to the selected day and the route draws itself. Popular sights from Wikidata with photos, weather forecast, a serverless share link, calendar export. Next.js static export, logic covered by tests. Stack: Next.js, TypeScript, Zustand, TanStack Query, MapLibre. Demo: https://dmitriy9427.github.io/tropa/. Repository: https://github.com/dmitriy9427/tropa.",
+  "url": "https://dmitriy9427.github.io/tropa/"
+ },
+ {
+  "id": "en:pet:resonance",
+  "lang": "en",
+  "kind": "pet",
+  "title": "Side project (personal): Resonance",
+  "text": "Side project (personal): Resonance — Music visualizer. Three shader-driven 3D scenes that listen to music: a noise sphere, a 60,000-particle galaxy, a synthwave landscape built from spectrum history. Audio analysis with frequency bands and beat detection, a demo track synthesized in the browser with Web Audio, your own file or microphone. 60 fps, tutorial-style docs. Stack: React Three Fiber, TypeScript, GLSL, Web Audio, Vitest. Demo: https://dmitriy9427.github.io/resonance/. Repository: https://github.com/dmitriy9427/resonance.",
+  "url": "https://dmitriy9427.github.io/resonance/"
+ },
+ {
+  "id": "en:pet:3d-constructor",
+  "lang": "en",
+  "kind": "pet",
+  "title": "Side project (personal): 3D Constructor",
+  "text": "Side project (personal): 3D Constructor — WebGL animation builder with code export. 40 effects tuned with sliders; the code is exported as a JS module, a React component or a web component — the same runtime that renders the preview, about 8 KB gzipped. GLSL backgrounds (a sea with a day cycle and storms, Perlin-Worley clouds, space, fire, liquid metal), GPU fluid simulations, transitions that burn through a real HTML section, cursors, a liquid button, a preloader, three.js 3D. Write your own shader in the editor, motion paths, adaptive quality. The home page is a GSAP scroll scene built from the same effects. 131 tests, a 17-chapter tutorial. Stack: WebGL2 / GLSL, Three.js, GSAP, React, TypeScript. Demo: https://dmitriy9427.github.io/konstruktor-3d/. Repository: https://github.com/dmitriy9427/konstruktor-3d.",
+  "url": "https://dmitriy9427.github.io/konstruktor-3d/"
+ },
+ {
+  "id": "en:pet:letuchka",
+  "lang": "en",
+  "kind": "pet",
+  "title": "Side project (personal): Letuchka",
+  "text": "Side project (personal): Letuchka — Team retrospective board. A room by link, no sign-up: cards, voting, a timer, teammates’ cursors and reactions in real time. Three phases: write blind, vote, discuss. Supabase backend: anonymous auth, Postgres, row level security, realtime; a serverless demo mode across browser tabs. Stack: Nuxt, Vue 3, Pinia, Supabase, TypeScript. Demo: https://dmitriy9427.github.io/letuchka/. Repository: https://github.com/dmitriy9427/letuchka.",
+  "url": "https://dmitriy9427.github.io/letuchka/"
+ },
+ {
+  "id": "en:pet:myata",
+  "lang": "en",
+  "kind": "pet",
+  "title": "Side project (personal): Myata",
+  "text": "Side project (personal): Myata — Telegram Mini App for salon booking. Book a master right inside Telegram: service, master, free slot, confirmation. Uses the user’s theme colors, native Telegram buttons (MainButton, BackButton), haptics, bookings in CloudStorage synced across devices. Scheduling respects service duration with an “any master” mode; a demo mode outside Telegram. Stack: React, TypeScript, Telegram Mini Apps, Zustand, Vite. Demo: https://dmitriy9427.github.io/myata/. Repository: https://github.com/dmitriy9427/myata.",
+  "url": "https://dmitriy9427.github.io/myata/"
+ },
+ {
+  "id": "en:pet:ritm",
+  "lang": "en",
+  "kind": "pet",
+  "title": "Side project (personal): Ritm",
+  "text": "Side project (personal): Ritm — Mobile app: habit tracker. A React Native + Expo app: one codebase for iOS, Android and the web. Habits by weekday, counters, streaks, stats with a heatmap. Swipe to check off — the gesture and animation run on the UI thread (Gesture Handler, Reanimated), with an SVG progress ring. On-device data with versioning and migration, local reminders, haptics, dark theme, accessibility. Stack: React Native, Expo, TypeScript, Reanimated, Zustand. Demo: https://dmitriy9427.github.io/ritm/. Repository: https://github.com/dmitriy9427/ritm.",
+  "url": "https://dmitriy9427.github.io/ritm/"
+ },
+ {
+  "id": "en:pet:propusk",
+  "lang": "en",
+  "kind": "pet",
+  "title": "Side project (personal): Propusk",
+  "text": "Side project (personal): Propusk — Production-grade authentication. A JWT access token in memory and a refresh token in an HttpOnly cookie with rotation and theft detection; PBKDF2 passwords with brute-force protection and uniform errors. Two-factor auth (TOTP, recovery codes), passkeys (WebAuthn), sign-in via a provider with OAuth 2.0 + PKCE + OpenID Connect, email links, devices, sudo mode, roles. The client refreshes once for all requests and tabs (Web Locks) and logs out everywhere (BroadcastChannel). The Hono server runs both on Node and in the browser. 62 tests, including passkeys in Playwright. Stack: React, TypeScript, OAuth 2.0 / OIDC, WebAuthn, Hono. Demo: https://dmitriy9427.github.io/propusk/. Repository: https://github.com/dmitriy9427/propusk.",
+  "url": "https://dmitriy9427.github.io/propusk/"
+ },
+ {
+  "id": "en:pet:saldo",
+  "lang": "en",
+  "kind": "pet",
+  "title": "Side project (personal): Saldo",
+  "text": "Side project (personal): Saldo — Personal finance app on Redux Toolkit and FSD. RTK Query: a single createApi with endpoints injected per entity and tags — after any change the list, balances, charts and budgets refresh themselves; optimistic edits with rollback. Undoable delete via listener middleware, a CSV import wizard on createSlice and createSelector (encoding, columns and categories are detected, duplicates skipped). Feature-Sliced Design architecture enforced by Steiger. Forms with react-hook-form + zod, money in minor units, Recharts charts. 75 tests: Vitest with MSW and Playwright. Stack: React, TypeScript, Redux Toolkit, RTK Query, Feature-Sliced Design. Demo: https://dmitriy9427.github.io/saldo/. Repository: https://github.com/dmitriy9427/saldo.",
+  "url": "https://dmitriy9427.github.io/saldo/"
+ },
+ {
+  "id": "en:pet:prilavok",
+  "lang": "en",
+  "kind": "pet",
+  "title": "Side project (personal): Prilavok",
+  "text": "Side project (personal): Prilavok — Real-time e-commerce admin panel. A hand-written WebSocket client: reconnection with exponential backoff and jitter, heartbeat, channels, acknowledged requests, an offline queue and resuming missed events by sequence number and server epoch. Events flow into the TanStack Query cache; record versions guard against races. A server-side table with URL state, 10,000 virtualized rows, optimistic updates, roles. The server runs in the browser via MSW and on Node. 138 tests. Stack: React, TypeScript, WebSocket, TanStack Router / Query / Table, shadcn/ui. Demo: https://dmitriy9427.github.io/prilavok/. Repository: https://github.com/dmitriy9427/prilavok.",
+  "url": "https://dmitriy9427.github.io/prilavok/"
+ },
+ {
+  "id": "en:pet:opora",
+  "lang": "en",
+  "kind": "pet",
+  "title": "Side project (personal): Opora",
+  "text": "Side project (personal): Opora — React component library. 16 accessible components built without Radix or other headless foundations: a dialog with a focus trap and inert, arrow-key navigation in menus and tabs, a select using aria-activedescendant, toasts as live regions, custom positioning with flip and shift. Styles in cascade layers and tokens — overridable without !important. Package: ESM, types, an exports map, publint and attw checks, installing the packed tarball with SSR. 133 tests with axe, Storybook. Stack: React, TypeScript, Accessibility (WAI-ARIA), Storybook, Vitest. Demo: https://dmitriy9427.github.io/opora/. Repository: https://github.com/dmitriy9427/opora.",
+  "url": "https://dmitriy9427.github.io/opora/"
+ },
+ {
+  "id": "en:pet:sosny-residence",
+  "lang": "en",
+  "kind": "pet",
+  "title": "Side project (personal): Sosny Residence",
+  "text": "Side project (personal): Sosny Residence — Residential complex website. A three.js 3D block: hover a tower to see available flats. A catalog of 270 flats with filters, a floor grid and URL state. Static flat pages with SVG floor plans, favorites, a mortgage calculator. Stack: Astro, TypeScript, Three.js, GSAP, SCSS. Demo: https://dmitriy9427.github.io/zhk-sosny/. Repository: https://github.com/dmitriy9427/zhk-sosny.",
+  "url": "https://dmitriy9427.github.io/zhk-sosny/"
+ },
+ {
+  "id": "en:pet:orbita",
+  "lang": "en",
+  "kind": "pet",
+  "title": "Side project (personal): ORBITA",
+  "text": "Side project (personal): ORBITA — Space agency website. A 3D rocket follows its trajectory as you scroll, and on “Launch” flies it back and lands on the pad. All 16 GSAP plugins, six library-free sliders, shader transitions, GPU water simulation, an infinite gallery. Three pages, 120 fps, 218 tests. Stack: GSAP, Three.js, GLSL, Vite, Vitest. Demo: https://dmitriy9427.github.io/space-agency/. Repository: https://github.com/dmitriy9427/space-agency.",
+  "url": "https://dmitriy9427.github.io/space-agency/"
+ },
+ {
+  "id": "en:pet:frontend-kit",
+  "lang": "en",
+  "kind": "pet",
+  "title": "Side project (personal): frontend-kit",
+  "text": "Side project (personal): frontend-kit — Project starter kit. 36 modules, zod-style form schemas and masks, Swiper, 3D slider, i18n, dev panel, 4 starters: vanilla, React, React + TS, Astro. This site is built with it. Stack: TypeScript, Astro, React, SCSS, GSAP. Demo: https://dmitriy9427.github.io/frontend-kit/. Repository: https://github.com/dmitriy9427/frontend-kit.",
+  "url": "https://dmitriy9427.github.io/frontend-kit/"
+ },
+ {
+  "id": "en:site3d:site3d",
+  "lang": "en",
+  "kind": "site3d",
+  "title": "3D version of the resume",
+  "text": "The 3D version of the resume is an interactive walk through a night city: a room on a high floor, a descent to the street, signs with projects and experience, and a seaside finish. Built with Astro, React Three Fiber, three.js and Blender. URL: https://dmitriy9427.github.io/3d-resume/",
+  "url": "https://dmitriy9427.github.io/3d-resume/"
+ }
+]

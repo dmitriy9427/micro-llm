@@ -52,3 +52,9 @@ cargo test --release --manifest-path rust/bpe/Cargo.toml
 cargo build --release --target wasm32-unknown-unknown --manifest-path rust/bpe/Cargo.toml
 wasm-bindgen rust/bpe/target/wasm32-unknown-unknown/release/microllm_bpe.wasm --target web --out-dir viz/wasm --no-typescript
 ```
+
+## Дообучение готовой модели (LoRA)
+
+В `finetune/` — дообучение Qwen2.5-0.5B-Instruct на вопросах про резюме и сравнение с RAG. Коротко: отказы на посторонние темы
+выучились (8/9 против 0/9), но факты модель частично выдумывает — для знаний лучше RAG. Подробности и честные оговорки:
+[`finetune/README.md`](finetune/README.md).
